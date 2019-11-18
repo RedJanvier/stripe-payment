@@ -2,16 +2,21 @@
   "name": "stripe-payment",
   "version": "1.0.0",
   "description": "This is a React Payment system using STRIPE API",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server",
+    "start": "node src/server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RedJanvier/stripe-payment.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name":"RedJanvier",
+    "email": "janvierntwali@gmail.com",
+    "url": "https://github.com/RedJanvier" 
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RedJanvier/stripe-payment/issues"
